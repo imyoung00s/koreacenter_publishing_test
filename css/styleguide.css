@@ -1,0 +1,63 @@
+body{ 
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.en{font-family: 'Montserrat', sans-serif;}
+.center{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.textbox h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.textbox p {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.textbox .more_btn {
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+  font-weight: 400;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  z-index: 10;
+}
+
+.controls li {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.controls li button {
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 600;
+  transition: font-size 0.8s, font-weight 0.8s;
+}
+
+.controls li button.active {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+
+@media screen and (min-width:800px){
+  .title1_sm{display: none;}
+  .padding_v{padding: 100px 0;}
+}/* lg */
+@media screen and (max-width:800px){
+  .title1{display: none;}
+  .padding_v{padding: 70px 0;}
+}/* sm */

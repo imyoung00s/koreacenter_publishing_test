@@ -1,0 +1,42 @@
+.home_visual {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.home_visual .slider_container {
+  position: relative;
+  width: 100%;
+  height: 300%;
+}
+
+.home_visual .slider_container li {
+  width: 100%;
+  height: 33.33%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.home_visual .slider_container li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.home_visual .slider_container li:first-child {
+  display: block;
+}
+
+.home_visual .slider_container li.imgbox1:last-child {
+  position: absolute;
+  top: 100%;
+}
+
+.home_visual .slider_container li.imgbox3:first-child {
+  position: absolute;
+  bottom: 100%;
+}

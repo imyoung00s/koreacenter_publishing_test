@@ -1,0 +1,32 @@
+.section1 {
+  padding: 140px 0;
+  .center {
+    display: flex;
+    justify-content: space-between;
+    li {
+      display: flex;
+      flex-direction: column;
+      &.li1 {
+        width: 510px;
+        .textbox{
+          margin-bottom: 40px;
+        }
+      } //li1
+      &.li2 {
+        width: 600px;
+        flex-direction: column-reverse;
+        justify-content: left;
+        .textbox{
+          margin-top: 40px;
+        }
+      }
+     
+      figure {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }//figure
+    } //li
+  } //center
+} //section1

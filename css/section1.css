@@ -1,0 +1,36 @@
+.section1 {
+  padding: 140px 0;
+}
+
+.section1 .center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1 .center li {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 .center li.li1 {
+  width: 510px;
+}
+
+.section1 .center li.li1 .textbox {
+  margin-bottom: 40px;
+}
+
+.section1 .center li.li2 {
+  width: 600px;
+  flex-direction: column-reverse;
+  justify-content: left;
+}
+
+.section1 .center li.li2 .textbox {
+  margin-top: 40px;
+}
+
+.section1 .center li figure img {
+  display: block;
+  width: 100%;
+}

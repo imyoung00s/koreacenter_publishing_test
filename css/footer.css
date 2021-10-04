@@ -1,0 +1,81 @@
+footer {
+  background: #f5f5f5;
+}
+
+footer .footer_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+footer .center {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  display: block;
+  color: #999;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+footer .footer_top {
+  padding: 50px 0;
+  border-bottom: 2px solid #ececec;
+}
+
+footer .footer_top p.number {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+
+footer .footer_top .customer .footer_title {
+  margin-bottom: 0;
+}
+
+footer .footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+footer .footer_bottom .company p {
+  position: relative;
+  display: inline-block;
+  margin-right: 7px;
+}
+
+footer .footer_bottom .company p:nth-child(n+4) {
+  clear: both;
+}
+
+footer .footer_bottom .company p::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 12px;
+  background: #DDD;
+  margin: 0 5px;
+}
+
+footer .footer_bottom .company p a {
+  color: #000;
+}
+
+footer .footer_bottom .sns {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer_bottom .sns a {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #999;
+}
