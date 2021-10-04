@@ -27,6 +27,8 @@ $(function () {
     $(this).addClass("active")
     $(".section3 .tab_contents .tab_contents_slider .tab_box").removeClass("active")
     $(".section3 .tab_contents .tab_contents_slider .tab_box" + tabClass).addClass("active")
+    $(".section3 .desc_container .textbox").removeClass("active")
+    $(".section3 .desc_container .textbox" + tabClass).addClass("active")
   })
 
   /* colorbox  기능 구현 */
